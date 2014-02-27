@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ page.seoLang }}">
 
-	<head>
+	<header class="bk-header">
 	
 		{% include "head.twig" %}
 		
@@ -28,8 +28,8 @@
 
 	<body class="{{ page.backgroundClass }}">
 
-		<header>
-			{{widget('companyname', 'companyname', {"business": "THAIWOK"})|raw}}
+<header class="bk-header">
+			{{widget('companyname', 'companyname', {"business": "profile"})|raw}}
 		</header>
 
 		<nav class="nav">
