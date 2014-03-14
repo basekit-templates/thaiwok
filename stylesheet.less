@@ -40,45 +40,6 @@
 	Type
 	=============================== */
 
-h1 {
-	font-family:@font-swatch1-font-family; 
-	font-weight: @font-swatch1-font-weight; 
-	color:@font-swatch1-color; 
-	line-height:@font-swatch1-line-height; 
-	letter-spacing: @font-swatch1-letter-spacing; 
-	font-size: @font-swatch1-font-size;
-	padding:10px 0px;
-}
-
-.menu-page h1 {
-		background-color:@color-swatch7;
-}
-
-h2 {
-	font-family:@font-swatch2-font-family; 
-	font-weight: @font-swatch2-font-weight; 
-	color:@font-swatch2-color; 
-	line-height:@font-swatch2-line-height; 
-	letter-spacing: @font-swatch2-letter-spacing; 
-	font-size: @font-swatch2-font-size;
-}
-
-h3 {
-	font-family:@font-swatch3-font-family; 
-	font-weight: @font-swatch3-font-weight; 
-	color:@font-swatch3-color; 
-	line-height:@font-swatch3-line-height; 
-	letter-spacing: @font-swatch3-letter-spacing; 
-	font-size: @font-swatch3-font-size;
-}
-h4 {
-	font-family:@font-swatch4-font-family; 
-	font-weight: @font-swatch4-font-weight; 
-	color:@font-swatch4-color; 
-	line-height:@font-swatch4-line-height; 
-	letter-spacing: @font-swatch4-letter-spacing; 
-	font-size: @font-swatch4-font-size;
-}
 h5, .main p, .main .p-font, .main a, .widget.profile, label, p, .menu-item-nutritional-title {
 	font-family:@font-swatch5-font-family;
 	font-weight: @font-swatch5-font-weight;
@@ -424,7 +385,9 @@ body {
 	padding: 0 2% 1% 2%;
 	margin-top: 60px;
 }
-.section.main {
+
+.menu-page h1 {
+	background-color:@color-swatch7;
 }
 
 .main.menu-page {
@@ -608,6 +571,16 @@ footer.bk-footer h3 {
 
 .clearfix {
     *zoom: 1;
+}
+
+.main .menu-subsection {
+	border:0;
+	background-color:transparent;
+}
+
+.menu-subsection-wrapper.menu-subsection-promoted {
+	background-color: rgba(1, 1, 1, 0.05);
+	padding:40px 20px 0px 20px;
 }
 
 /*	===============================
